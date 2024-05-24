@@ -1,0 +1,19 @@
+main {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.jatekter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.jatekter div {
+    aspect-ratio: 1; /* oldalarány */
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 35px;
+    cursor: grab;
+}
